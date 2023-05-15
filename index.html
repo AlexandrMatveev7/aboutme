@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r50/three.min.js"></script>
+
+</head>
+
+<body >
+    <div class="wrapper ">
+        <div class="section__about-me about-me padding-block">
+            <div class="about-me__container _container">
+                <div class="theme">
+                    <button class="btn__change-theme"><span class="btn__text">Theme</span></button>
+                </div>
+                <h1 class="about-me__title">Моя особиста сторінка</h1>
+                <div class="about-me__body">
+                    <div class="about-me__info">
+                        <div class="about-me__name-block">
+                            <p class="about-me__name-text">Александр</p>
+                        </div>
+                        <div class="about-me__mail-block">
+                            <p class="about-me__mail-text">test@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__predmetu predmetu padding-block">
+            <div class="predmetu__container _container">
+                <h2 class="predmetu__title" hidden>Список предметів</h2>
+                <div class="predmetu__body">
+                    <table class="table-predmetu">
+                        <caption class="table__info">Список предметів</caption>
+                        <thead class="table__head">
+                            <tr class="table__row head-row">
+                                <th class="header-items">Предмет</th>
+                                <th class="header-items">Викладач</th>
+                                <th class="header-items">Оцінка</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table__body">
+                            <tr class="table__row body-row">
+                                <td class="table-column__item predmet-name">Предмет</td>
+                                <td class="table-column__item teacher-name">Викладач</td>
+                                <td class="table-column__item grade">Оцінка</td>
+                            </tr>
+                            <tr class="table__row body-row">
+                                <td class="table-column__item predmet-name">Предмет</td>
+                                <td class="table-column__item teacher-name">Викладач</td>
+                                <td class="table-column__item grade">Оцінка</td>
+                            </tr>
+                            <tr class="table__row body-row">
+                                <td class="table-column__item predmet-name">Предмет</td>
+                                <td class="table-column__item teacher-name">Викладач</td>
+                                <td class="table-column__item grade">Оцінка</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section__films films padding-block">
+            <div class="films__container _container">
+                <h2 class="films__title">Список улюблених фільмів або ТВ-шоу</h2>
+                <div class="films__body">
+                    <ul class="fils__list">
+                        <li class="films__item">
+                            <a href="https://uakino.club/filmy/genre-action/72-termnator.html" class="films__link"><span class="films__text">Фільм 1</span></a>
+                        </li>
+                        <li class="films__item">
+                            <a href="https://uakino.club/filmy/genre-action/72-termnator.html" class="films__link"><span class="films__text">Фільм 2</span></a>
+                        </li>
+                        <li class="films__item">
+                            <a href="https://uakino.club/filmy/genre-action/72-termnator.html" class="films__link"><span class="films__text">Фільм 3</span></a>
+                        </li>
+                        <li class="films__item">
+                            <a href="https://uakino.club/filmy/genre-action/72-termnator.html" class="films__link"><span class="films__text">Фільм 4</span></a>
+                        </li>
+                        <li class="films__item">
+                            <a href="https://uakino.club/filmy/genre-action/72-termnator.html" class="films__link"><span class="films__text">Фільм 5</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section__describe-me describe-me padding-block">
+            <div class="describe__container _container">
+                <h2 class="describe__title">Слова, якими можна описати</h2>
+                <div class="describe__body">
+                    <p class="describe__text">
+                        <span class="describe__text-word">Слово 1</span>,
+                        <span class="describe__text-word">Слово 2</span>,
+                        <span class="describe__text-word">Слово 3</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="section__mood mood padding-block">
+            <div class="mood__container _container">
+                <h2 class="mood__title">Мої настрої</h2>
+                <div class="mood__body">
+                    <div class="mood__item">
+                        <div class="mood__wrap-img">
+                            
+                            <img src="img/mood-1.png" loading="lazy" alt="Щасливий" />
+                            
+                        </div>
+                        <p class="mood__text">Щасливий</p>
+                    </div>
+                    <div class="mood__item">
+                        
+                        <div class="mood__wrap-img">
+                            
+                            <img src="img/mood-1.png" loading="lazy" alt="Сумний" />
+                            
+                        </div>
+                        <p class="mood__text">Сумний</p>
+                    </div>
+                    <div class="mood__item">
+                        <div class="mood__wrap-img">
+                            
+                            <img src="img/mood-1.png" loading="lazy" alt="Зараз" />
+                            
+                        </div>
+                        <p class="mood__text">Зараз</p>         
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__quote quote padding-block">
+            <div class="quote__container _container">
+                <h2 class="quote__title">Улюблена цитата</h2>
+                <div class="quote__body">
+                    <blockquote class="blockquote__text-block">
+                        <p class="blockquote__text-quote">Не подобається зроби самостійно</p>
+                        <cite class="blockqoute__text-cite">Думчиков Артем</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="section__map map padding-block">
+            <div class="map__container _container">
+                <div class="place-wrap">
+                    <h2 class="place__title">
+                        Ваша цікава інформація про місце, 
+                        де ви живете або народилися.
+                    </h2>
+                    <p class="place__text">
+                        Найбільша за розмірами площа України – площа Свободи знаходиться у Харкові. <br>
+                        У Харкові знаходиться найстаріший зоопарк України, який був заснований у далекому 1896 році. <br>
+                        У всій тогочасній Російській імперії він за величиною посідав третє місце. <br>
+                        Найдовша вулиця Харкова – Московський проспект.
+                    </p>
+                </div>
+                <div class="map-wrap">
+                    <div class="text-map-wrap">
+                        <h2 class="map__title">Інформація про моє місце проживання</h2>
+                    </div>
+                    <div class="map__body">
+                        <div class="map-wrap">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1078.1832572253802!2d36.23385758280385!3d50.0044873356462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a18b6af716c3%3A0x97059a8f63ea88d2!2z0J_Qu9C-0YnQsNC00Ywg0KHQstC-0LHQvtC00Ys!5e0!3m2!1sru!2sua!4v1684062464244!5m2!1sru!2sua" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="map-iframe">
+                        </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__slider slider">
+            <div class="slider__container _container">
+                <h2 class="city__title">Рідне місто</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide img-wrap"><img src="img/ts.png" alt=""></div>
+                      <div class="swiper-slide img-wrap"><img src="img/js.png" alt=""></div>
+                      <div class="swiper-slide img-wrap"><img src="img/ts.png" alt=""></div>
+                      <div class="swiper-slide img-wrap"><img src="img/js.png" alt=""></div>
+                      <div class="swiper-slide img-wrap"><img src="img/ts.png" alt=""></div>
+                    </div>
+                    <!-- <div class="swiper-button-next"></div> -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+        <div class="section__3d">
+            <div class="d3__container _container">
+                <h2 class="d3__title">3D модель</h2>
+                <div class="d3__body">
+                    <div class="three_model"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        // centeredSlides: true,
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
